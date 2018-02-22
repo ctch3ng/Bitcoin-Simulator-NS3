@@ -27,7 +27,8 @@ sudo chmod u+x BTCSim_X11.sh
 ```
 
 For OSX users:
-Make sure XQuartz is installed and in XQuartz: Preferences -> Security -> (Check) Allow connections from network clients
+
+Note: Make sure XQuartz is installed and in XQuartz: Preferences -> Security -> (Check) Allow connections from network clients
 ```
 sudo chmod u+x BTCSim_XQuartz.sh
 ./BTCSim_XQuartz.sh # create a container BTCSim using the docker image btc_simulator
