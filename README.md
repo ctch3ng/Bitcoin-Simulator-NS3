@@ -1,24 +1,25 @@
 # Bitcoin-Simulator-NS3
 Dockerfile (Ubuntu, NS3, and Bitcoin Simulator)
 
-The aim of this repository is to prepare a docker image for running the Bitcoin Simulator form 
+The aim of this repository is to prepare a docker image for running the Bitcoin Simulator from 
 ```
 https://arthurgervais.github.io/Bitcoin-Simulator/index.html
 ```
-The Dockerfile prepare a clean Ubuntu 16.04 with all the Prerequisites listed in
+The Dockerfile prepares a clean Ubuntu with all the prerequisites listed in
 ```
 https://www.nsnam.org/wiki/Installation
 ```
-The Dockerfile then perform the installation procedures listed in
+The Dockerfile then performs the installation procedures listed in
 ```
 https://arthurgervais.github.io/Bitcoin-Simulator/Installation.html
 ```
 
-In the terminal (For both Ubuntu and OSX):
+In a terminal (For both Ubuntu and OSX users):
 ```
 sudo chmod u+x BTCSim_build.sh
 ./BTCSim_build.sh #build a docker image called btc_simulator
 ```
+
 For Ubuntu users:
 ```
 sudo chmod u+x BTCSim_X11.sh
