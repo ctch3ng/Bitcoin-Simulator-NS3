@@ -18,17 +18,8 @@ In a terminal (For both Ubuntu and OSX users):
 sudo chmod u+x BTCSim_build.sh
 ./BTCSim_build.sh #build a docker image called btc_simulator
 ```
-
-For Ubuntu users:
+Then,
 ```
-sudo chmod u+x BTCSim_X11.sh
-./BTCSim_X11.sh # create a container BTCSim using the docker image btc_simulator
-```
-
-For OSX users:
-
-Note: Make sure XQuartz is installed and in XQuartz: Preferences -> Security -> (Check) Allow connections from network clients
-```
-sudo chmod u+x BTCSim_XQuartz.sh
-./BTCSim_XQuartz.sh # create a container BTCSim using the docker image btc_simulator
+sudo chmod u+x BTCSim_run.sh
+./BTCSim_run.sh # create a container BTCSim using the docker image btc_simulator
 ```
