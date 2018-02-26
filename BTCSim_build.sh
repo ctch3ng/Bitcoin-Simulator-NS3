@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t btc_simulator .
+sudo docker build -t btc_simulator .
