@@ -13,6 +13,8 @@ The Dockerfile then performs the installation procedures listed in
 
 [https://arthurgervais.github.io/Bitcoin-Simulator/Installation.html](https://arthurgervais.github.io/Bitcoin-Simulator/Installation.html)
 
+The following procedures are for Ubuntu 16.04 or MacOS 10.13.3 with Docker 17.12.0-ce installed
+
 In a terminal (For both Ubuntu and OSX users):
 ```
 sudo chmod u+x BTCSim_build.sh
