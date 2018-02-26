@@ -6,7 +6,7 @@ echo "Alias: BTCSim"
 sudo docker run -it \
     --user=$(id -u) \
     --env="DISPLAY" \
-    --workdir="/home/CS" \
+    --workdir="/root/workspace/ns-allinone-3.25/ns-3.25" \
     --volume="/home/$USER:/home/$USER" \
     --volume="/etc/group:/etc/group:ro" \
     --volume="/etc/passwd:/etc/passwd:ro" \
