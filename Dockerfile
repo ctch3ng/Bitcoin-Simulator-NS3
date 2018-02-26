@@ -5,7 +5,7 @@ RUN apt-get update
 RUN apt-get install -y wget
 RUN apt-get install -y gedit
 RUN apt-get install -y git
-RUN apt-get install -y gcc g++ python python-dev
+RUN apt-get update && apt-get install -y gcc g++ python python-dev
 RUN apt-get install -y mercurial python-setuptools git
 RUN apt-get install -y qt5-default
 RUN apt-get install -y python-pygraphviz python-kiwi python-pygoocanvas libgoocanvas-dev ipython
@@ -14,7 +14,7 @@ RUN apt-get install -y autoconf cvs bzr unrar
 RUN apt-get install -y gdb valgrind 
 RUN apt-get install -y uncrustify
 RUN apt-get install -y doxygen graphviz imagemagick
-RUN apt-get install -y  texlive texlive-extra-utils texlive-latex-extra texlive-font-utils texlive-lang-portuguese dvipng
+RUN apt-get install -y texlive texlive-extra-utils texlive-latex-extra texlive-font-utils texlive-lang-portuguese dvipng
 
 RUN apt-get install -y python-sphinx dia 
 RUN apt-get install -y gsl-bin libgsl2 libgsl-dev
