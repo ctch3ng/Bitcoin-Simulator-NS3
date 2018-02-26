@@ -25,3 +25,8 @@ Then,
 sudo chmod u+x BTCSim_run.sh
 ./BTCSim_run.sh # create a container BTCSim using the docker image btc_simulator
 ```
+For testing, try to run a simulaiton with 10 blocks and 1000 nodes by typing the following in the container
+```
+./waf --run "bitcoin-test --noBlocks=10 --nodes=1000"
+```
+To exit, type ```exit```
