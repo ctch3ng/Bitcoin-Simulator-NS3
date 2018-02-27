@@ -29,16 +29,6 @@ RUN apt-get install -y libgtk2.0-0 libgtk2.0-dev
 RUN apt-get install -y vtun lxc
 RUN apt-get install -y libboost-signals-dev libboost-filesystem-dev
 
-#RUN hg clone http://code.nsnam.org/bake
-#RUN export BAKE_HOME=`pwd`/bake 
-#RUN export PATH=$PATH:$BAKE_HOME
-#RUN export PYTHONPATH=$PYTHONPATH:$BAKE_HOME
-#WORKDIR /bake/
-#RUN python bake.py configure -e ns-3.25
-#RUN python bake.py deploy
-#RUN python bake.py download
-#RUN python bake.py build
-
 WORKDIR /root/
 RUN mkdir workspace
 
